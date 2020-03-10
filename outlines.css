@@ -18,6 +18,7 @@ body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   line-height: 20px;
+  text-align: center;
 }
 
 body {
@@ -39,13 +40,13 @@ footer {
   background-color: #f3faff;
   border: 2px solid #7fc1ff;
 }
-
 nav,
 section,
 article,
 aside {
   background-color: #f9f7ff;
   border: 2px solid #9779ec;
+  text-align: center;
 }
 
 nav::before,
@@ -97,38 +98,9 @@ p::before {
   letter-spacing: 0.04em;
 }
 
-html::before {
-  content: "html";
-}
 
-body::before {
-  content: "body";
-}
 
-main::before {
-  content: "main";
-}
-
-header::before {
-  content: "header";
-}
-
-footer::before {
-  content: "footer";
-}
-
-section::before {
-  content: "section";
-}
-
-article::before {
-  content: "article";
-}
-
-aside::before {
-  content: "aside";
-}
-
-nav::before {
-  content: "nav";
+nav li {
+  list-style: none;
+  display: inline;
 }
